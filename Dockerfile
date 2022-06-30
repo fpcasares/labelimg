@@ -2,7 +2,7 @@
 FROM navikey/raspbian-bullseye:latest
 
 RUN apt-get update
-RUN apt-get install -y ffmpeg 
+RUN apt-get install -y --fix-missing ffmpeg 
 RUN apt-get install -y pyqt5-dev-tools
 RUN apt.get install -y git
 RUN apt-get install -y pip
