@@ -1,6 +1,7 @@
 #raspbian-bullseye:latest
 FROM navikey/raspbian-bullseye:latest
 
+RUN apt-get update
 RUN apt-get install ffmpeg 
 RUN apt-get update
 RUN apt-get install -y pyqt5-dev-tools
