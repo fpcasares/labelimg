@@ -5,7 +5,7 @@ RUN apt-get update
 RUN apt-get upgrade
 RUN apt-cache policy ffmpeg
 RUN apt install ffmpeg --fix-missing
-RUN apt-get install -y pyqt5-dev-tools git pip
+RUN apt-get install -y pyqt5-dev-tools git pip libxslt-dev
 RUN git clone https://github.com/tzutalin/labelImg
 RUN cd labelImg
 RUN pip install lxml==4.6.5
