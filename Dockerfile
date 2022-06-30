@@ -2,7 +2,7 @@
 FROM navikey/raspbian-bullseye:latest
 
 RUN apt-get update
-RUN add-apt-repository ppa:jonathonf/ffmpeg-4
+RUN apt-get upgrade
 RUN apt-get install -y ffmpeg 
 RUN apt-get install -y pyqt5-dev-tools
 RUN apt.get install -y git
