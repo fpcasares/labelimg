@@ -1,5 +1,5 @@
 #raspbian-bullseye:latest
-FROM sha256:7d681cac2d582505c2546146b3f877afa3157afdff97ee6fb0fc8de736461618
+FROM navikey/raspbian-bullseye:latest
 
 RUN apt-get install ffmpeg 
 RUN apt-get update
